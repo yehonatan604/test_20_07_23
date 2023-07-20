@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    color: red;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-form {
+    margin: auto;
+}
+
+#form-Major-Data {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-form {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #575757;
+}
+
+.input-form {
+    display: block;
+    background: #EEEEEE;
+    border-radius: 10px;
+    width: 609px;
+    height: 66px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.input-form::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+
+}
+
+.form-btn {
+    width: 242px;
+    height: 66px;
+    background: #63ff9a;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    margin: auto;
+}
